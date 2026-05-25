@@ -31,8 +31,11 @@ public static class ResponseMapper
             CourseId = model.CourseId,
             CourseName = model.CourseName,
             SemesterId = model.SemesterId,
-            SubjectId = model.SubjectId,
+            SemesterName = model.Semester?.SemesterName,
             Semester = model.Semester is null ? null : ToSemesterSummaryResponse(model.Semester),
+            SubjectId = model.SubjectId,
+            SubjectCode = model.Subject?.SubjectCode,
+            SubjectName = model.Subject?.SubjectName,
             Subject = model.Subject is null ? null : ToSubjectSummaryResponse(model.Subject),
             Enrollments = model.Enrollments?.Select(ToEnrollmentForCourseResponse).ToList()
         };
