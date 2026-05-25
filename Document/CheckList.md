@@ -22,4 +22,4 @@ Checklist	Điểm tối đa
 "Swagger/OpenAPI
 - Có Swagger, listing endpoint, test API, request/response docs, HTTP status code docs."	0.5
 "Code Quality
-- Code clean, naming rõ, ít duplicate, xử lý lỗi cơ bản, cấu trúc dễ đọc và bảo trì."	1.1
+- Code clean, naming rõ, ít duplicate, xử lý lỗi cơ bản, cấu trúc dễ đọc và bảo trì."	1.1 
